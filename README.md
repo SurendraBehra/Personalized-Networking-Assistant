@@ -11,7 +11,7 @@
 
 *AI-Powered Web Application to Generate Personalized Conversation Starters for Professional Networking Events.*
 
-[Explore Docs](07_Project_Documentation/architecture.md) · [Submit Issue](https://github.com/SurendraBehra/Personalized-Networking-Assistant/issues)
+[Explore Docs](07_Project_Documentation/Project_Report.md) · [Submit Issue](https://github.com/SurendraBehra/Personalized-Networking-Assistant/issues)
 
 </div>
 
@@ -147,10 +147,7 @@ Personalized-Networking-Assistant/
 ├── 06_Project_Testing/
 │   └── Testing.md
 ├── 07_Project_Documentation/
-│   ├── api.md
-│   ├── architecture.md
-│   ├── deployment.md
-│   └── setup.md
+│   └── Project_Report.md
 ├── 08_Project_Demonstration/
 │   └── Demonstration.md
 ├── Screenshots/
@@ -187,7 +184,7 @@ graph LR
     end
 ```
 
-For a detailed breakdown of components, see the [Architecture Document](07_Project_Documentation/architecture.md).
+For a detailed breakdown of components, see the [Solution Architecture in Project Report](07_Project_Documentation/Project_Report.md#43-solution-architecture).
 
 ---
 
@@ -239,7 +236,7 @@ cd 05_Project_Development
 pip install -r requirements.txt
 ```
 
-For more detailed setup steps, please consult the [Setup Documentation](07_Project_Documentation/setup.md).
+For more detailed setup steps, please consult the [Setup & Installation Guide in Project Report](07_Project_Documentation/Project_Report.md#12-setup--installation-guide).
 
 ---
 
@@ -284,7 +281,7 @@ python run.py
 | `/api/history` | `GET` | Fetch historical session records | None |
 | `/api/history/{id}/feedback` | `PUT` | Update feedback rating (thumbs-up/down) | `FeedbackUpdateRequest` |
 
-See [API Documentation](07_Project_Documentation/api.md) for full JSON payload and response structures.
+See [REST API Documentation in Project Report](07_Project_Documentation/Project_Report.md#rest-api-documentation) for full JSON payload and response structures.
 
 ---
 
